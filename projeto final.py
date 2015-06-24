@@ -21,3 +21,5 @@ x23 = x3 - x2
 y12 = y2 - y1
 y13 = y3 - y1
 y23 = y3 - y2
+
+X = [V1x, x1, V2x, x2, V3x, x3, V1y, y1, V2y, y2, V3y, y3]
