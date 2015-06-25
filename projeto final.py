@@ -58,7 +58,7 @@ def func(X, t):
     
 
 X0 = [Vx1, x1, Vy1, y1, Vx2, x2, Vy2, y2, Vx3, x3, Vy3, y3]
-t = linspace(0,10000000000000000,1000000001)
+t = linspace(0,10000000,1000001)
 X = odeint(func, X0, t)
 
 plt.plot(X[:,1], X[:,3], "r--")
